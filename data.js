@@ -1,20 +1,27 @@
-const businesses = [
+const USA = [
   {
-    id: 1,
-    name: "Brisbane Night Plumbers",
-    city: "brisbane",
-    category: "plumber",
-    open: "24/7",
-    phone: "0400000000",
-    description: "Emergency plumbing available all night."
+    state: "texas",
+    cities: ["dallas", "houston", "austin"]
   },
   {
-    id: 2,
-    name: "Gold Coast Late Eats",
-    city: "goldcoast",
-    category: "food",
-    open: "5pm - 3am",
-    phone: "0411111111",
-    description: "Best late-night food spots."
+    state: "florida",
+    cities: ["miami", "orlando", "tampa"]
+  },
+  {
+    state: "new-york",
+    cities: ["new-york-city", "buffalo"]
+  },
+  {
+    state: "california",
+    cities: ["los-angeles", "san-diego", "san-francisco"]
   }
+];
+
+const categories = [
+  "emergency-plumber",
+  "24-hour-dentist",
+  "late-night-food",
+  "emergency-electrician",
+  "24-hour-pharmacy",
+  "weekend-mechanic"
 ];
