@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #0b0b0f;
+  color: white;
+}
+
+header {
+  padding: 60px;
+  text-align: center;
+  background: #111;
+}
+
+input {
+  padding: 12px;
+  width: 60%;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 12px 18px;
+  background: gold;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 30px;
+  gap: 20px;
+}
+
+.card {
+  background: #1a1a22;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#results .item {
+  background: #1a1a22;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
