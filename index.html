@@ -1,26 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>AfterHours Elite</title>
+  <meta charset="UTF-8">
+  <title>AfterHours Elite USA | Open Now Businesses Near You</title>
+  <meta name="description" content="Find emergency services, late-night food, 24/7 pharmacies, and trusted businesses open now across the United States. Fast, reliable, local results.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-  <h1>AfterHours Elite</h1>
-  <p>Find trusted businesses open when others are closed</p>
+<header class="hero">
+  <h1>AfterHours Elite USA</h1>
+  <p>Find trusted businesses open now across the United States</p>
 
-  <input id="search" placeholder="Search city or service (e.g. plumber Brisbane)">
-  <button onclick="goSearch()">Search</button>
+  <input 
+    id="search" 
+    placeholder="Search city or service (e.g. Dallas plumber, NYC food open now)"
+  >
+
+  <button onclick="goSearch()">Search USA</button>
 </header>
 
+<!-- QUICK ACCESS CATEGORIES -->
 <section class="grid">
-  <div class="card">🔥 Open Now Food</div>
-  <div class="card">🛠 Emergency Trades</div>
-  <div class="card">💊 24/7 Pharmacies</div>
-  <div class="card">🦷 Late Dentists</div>
+  <div class="card">🔥 Open Now Food USA</div>
+  <div class="card">🛠 Emergency Plumbers</div>
+  <div class="card">⚡ Emergency Electricians</div>
+  <div class="card">🦷 24/7 Dentists</div>
+  <div class="card">💊 Pharmacies Open 24/7</div>
+  <div class="card">🚗 Weekend Mechanics</div>
 </section>
 
+<!-- USA CITY QUICK LINKS (SEO BOOST) -->
+<section class="cities">
+  <h2>Popular USA Cities</h2>
+
+  <div class="grid">
+    <div class="card" onclick="openCity('new-york-city')">New York City</div>
+    <div class="card" onclick="openCity('los-angeles')">Los Angeles</div>
+    <div class="card" onclick="openCity('chicago')">Chicago</div>
+    <div class="card" onclick="openCity('miami')">Miami</div>
+    <div class="card" onclick="openCity('dallas')">Dallas</div>
+    <div class="card" onclick="openCity('houston')">Houston</div>
+  </div>
+</section>
+
+<footer>
+  <p>© AfterHours Elite USA — Trusted urgent local services</p>
+</footer>
+
 <script src="app.js"></script>
+
 </body>
 </html>
